@@ -1,0 +1,129 @@
+﻿div#parent{
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+}
+div.message0,
+.message1,
+.message2,
+.message3, .message4, .message5, .message6, .message7, .message8,
+.message9, .message10, .message11,
+.message-1 {
+    height: 120px;
+    width: 160px;
+    /*background-color:cornflowerblue;*/
+    background-image: url(../images/background.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -99999;
+    line-height: 115px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    position: fixed;
+}
+img{
+    width:150px;
+    height:120px;
+    border-radius:90%;
+}
+body {
+    background: #333 url(../images/yeen.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial;
+}
+.RunndomText{
+    position:absolute;
+    top:50%;
+    left:35%;
+    width:1000px;
+    height:500px;
+    margin-top:-100px;
+    margin-left:-100px;
+}
+ul {
+    /*background-color:white;*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+input[type="button"] {
+    display: block;
+}
+.jSlots-wrapper {
+    overflow: hidden;
+    height: 200px;
+    display: inline-block; /* to size correctly, can use float too, or width*/
+    border: 1px solid #999;
+}
+
+.slot {
+    float: left;
+    display:inline;
+}
+
+
+.slot li {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+    font-family: 'Gravitas One', serif;
+}
+
+.slot:first-child li{
+    border-left:none;
+}
+    .slot li:nth-child(10) {
+        background-color: #ff3333;
+    }
+.slot li:nth-child(9){
+    background-color:#FFCE29;
+}
+.slot li:nth-child(8) {
+    background-color: #FFA22B;
+}
+.slot li:nth-child(7) {
+    background-color: #FF8645;
+}
+.slot li:nth-child(6) {
+    background-color: #FFA22B;
+}
+
+.slot li:nth-child(5) {
+    background-color: #FF8645;
+}
+
+.slot li:nth-child(4) {
+    background-color: #FF6D3F;
+}
+
+.slot li:nth-child(3) {
+    background-color: #FF494C;
+}
+.slot li:nth-child(2) {
+    background-color: #FF3333;
+}
+.slot li:nth-child(1) {
+    background-color: #FF0000;
+}
+ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+
+
