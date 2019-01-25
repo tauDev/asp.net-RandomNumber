@@ -86,6 +86,9 @@ input[type="button"] {
 .slot:first-child li{
     border-left:none;
 }
+    .slot li:nth-child(11) {
+        background-color: #ffad33;
+    }
     .slot li:nth-child(10) {
         background-color: #ff3333;
     }
