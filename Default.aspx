@@ -90,13 +90,17 @@ function calcSpeed(prev, next) {
                 var elm = e.target;
                 var audio = document.getElementById('audio');
                 var source = document.getElementById('audioSource');
-                //var emb = document.getElementById('emb1');
-                //emb.src = "";
+               
                 source.src = "sound/slotmachine.mp3";
                 audio.loop = true;
                 audio.load();
                 //setTimeout(audio.find('audio')[0].play(), 100);
                 //audio.play();
+                 window.setTimeout(function () {
+                source.src = "sound/ragnarokonlinelevelupsound.mp3";
+                audio.loop = true;
+                audio.load();
+                    },7000);
             });
             //$("#audioSource").attr("src", "sound/Kalimba.mp3");
             //var audi = $("#audio");
@@ -340,14 +344,14 @@ $(document).ready(function () {
                 if (this.loopCount < base.options.loops) {
 
                     this.spinEm();
-
+                  
                 } else {
 					
                     this.finish();
                     window.setTimeout(function () {
                         console.log(item);
                         window.open("frmcongratulations.aspx?ID=" + item + "&N=" + item, "_self");
-                    },7000);
+                    },8000);
                     
 
                 }
